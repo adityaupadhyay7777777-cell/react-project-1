@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(23, 213, 213);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    gap:500px;
+    align-items: center;
+    padding: 20px;
+
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+
+}
+.logo{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    animation-name: logos;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate ;
+}
+@keyframes logos{
+    from{
+        color: rgb(91, 91, 91);
+        transform: translateX(-30px);
+       
+    }
+    to{
+        color: rgb(49, 48, 48);
+         transform:translateX(80px)
+    }
+}
