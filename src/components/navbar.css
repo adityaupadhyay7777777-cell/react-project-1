@@ -38,3 +38,9 @@ ul{
          transform:translateX(80px)
     }
 }
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: text-decoration  linear 2s;
+
+}
