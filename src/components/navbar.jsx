@@ -5,7 +5,7 @@ import "./navbar.css"
 function Navbar() {
   return (
     <div className='navbar'>
-      <div className='logo'>TitleHub</div>
+      <div className='logo'>Thoughts of the Day</div>
       <ul>
         <Link to={"/"} style={{textDecorationLine:"none",fontWeight:"bold"}}><li>Home</li></Link>
         <Link to={"/about"} style={{textDecorationLine:"none",fontWeight:"bold"}}><li>About</li></Link>
